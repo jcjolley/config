@@ -1,0 +1,40 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "none",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1029,
+       "width": 1680,
+       "x": 0,
+       "y": 0
+    },
+    "name": "Geary",
+    "percent": 0.7,
+    "swallows": [
+       {
+       "class": "^Geary$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1009,
+       "width": 556,
+       "x": 1920,
+       "y": 48
+    },
+    "name": ".*",
+    "percent": 0.3,
+    "swallows": [
+       {
+       "class": "^Pidgin$"
+       }
+    ],
+    "type": "con"
+}
